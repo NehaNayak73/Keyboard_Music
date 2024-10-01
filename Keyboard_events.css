@@ -1,0 +1,39 @@
+body{
+
+    margin: 0;
+    background-image: url(https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+#main_text{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 45vh;
+   
+}
+#inside_textA,#inside_textS,#inside_textD,#inside_textF,#inside_textG,#inside_textH,#inside_textJ,#inside_textK,#inside_textL{
+    border: 5px solid black;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.393);
+    width: 80px;
+    padding: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+    cursor: pointer;
+    color: black;
+}
+#inside_textA p,#inside_textS p,#inside_textD P,#inside_textF P,#inside_textG P,#inside_textH P,#inside_textJ P,#inside_textK P,#inside_textL P{
+    color: rgb(247, 213, 25);
+    margin-top: -10px;
+    text-transform: uppercase;
+   
+}
+
+#inside_textA h2,#inside_textS h2,#inside_textD h2,#inside_textF h2,#inside_textG h2,#inside_textH h2,#inside_textJ h2,#inside_textK h2,#inside_textL h2{
+    color: rgb(255, 255, 255);
+
+}
